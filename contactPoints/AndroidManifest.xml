@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--TI_GLUE: eNT9XAHgq0lZdbQs2nfH start-->
-<!--TI_GLUE: eNT9XAHgq0lZdbQs2nfH end-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -744,6 +742,14 @@
             android:name=".components.settings.app.subscription.donate.DonateToSignalActivity"
             android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
             android:theme="@style/Theme.Signal.DayNight.NoActionBar" />
+        <!--TI_GLUE: eNT9XAHgq0lZdbQs2nfH start-->
+        <activity
+            android:name=".trustedIntroductions.send.ContactsSelectionActivity"
+            android:theme="@style/Theme.Signal.DayNight.NoActionBar" />
+        <activity
+            android:name=".trustedIntroductions.receive.ManageActivity"
+            android:theme="@style/Theme.Signal.DayNight.NoActionBar" />
+        <!--TI_GLUE: eNT9XAHgq0lZdbQs2nfH end-->
 
         <service
             android:name=".exporter.SignalSmsExportService"
